@@ -1,0 +1,12 @@
+{
+  "name": "gsap",
+  "version": "1.0.0",
+  "description": "demo project for Pluralsight gsap course",
+  "main": "index.js",
+  "author": "Joe Bugajski",
+  "license": "MIT",
+  "dependencies": {
+    "greensock": "^1.20.2",
+    "jquery": "^3.3.1"
+  }
+}
