@@ -16,12 +16,12 @@ function init(){
    
     toolTimeline.from('.title', duration, {opacity: 0, scale: 25, ease:Linear.easeInOut}, .2);
   
-    toolTimeline.to('.superman img', duration, {left: 0, ease:Back.easeOut}); 
-    toolTimeline.from('.superman img', duration, {skewX: '20deg', ease:Back.easeOut}, .9); 
+    toolTimeline.to('.superman img', duration, {scale: 1.5, left: 0, ease:Back.easeOut}); 
+    toolTimeline.from('.superman img', duration, {scale: .5, skewX: '20deg', ease:Back.easeOut}, .9); 
 
     toolTimeline.to('.mainTitle', duration, {right: -90, ease:Back.easeInOut}, .7);
 
-    toolTimeline.staggerTo('.tools', duration, {top: 650, ease:Back.easeInOut}, 1.2, 1.7)
+    toolTimeline.staggerTo('.tools', duration, {top: 30, ease:Back.easeInOut}, 1.2, 1.7)
 
     // TweenLite syntax: 
     // toolTimeline.add(TweenLite.to('#toolBox', duration, {y:-100, ease:Linear.easeInOut}));
