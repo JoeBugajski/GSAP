@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    background-color: #000000;
+    background-color: #ffffff;
     height: 100%;
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
@@ -103,7 +103,8 @@ body {
 .gsapTitle .superman img{
     position: relative;
     width: 25%;
-    left: -70%;
+    left: 20%;
+    
 }
 
 .gsapTitle .mainTitle{
